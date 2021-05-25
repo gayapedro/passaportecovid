@@ -1,0 +1,62 @@
+[
+    {
+        "nome": "Cidadão 1",
+        "endereco": "0x8D6Ea1e529B2Df8aA82eCdaA42c7f4Eb1d6EdCb6",
+        "vac1": 0,
+        "vac2": 0
+    },
+    {
+        "nome": "Cidadão 2",
+        "endereco": "0x114E5303D3aF42562D072dc5c050D1D208E0E701",
+        "vac1": 0,
+        "vac2": 0
+    },
+    {
+        "nome": "Cidadão 3",
+        "endereco": "0x69ae513838BbAcC4743760E250a02d2eDf7875A8",
+        "vac1": 0,
+        "vac2": 0
+    },
+    {
+        "nome": "Cidadão 4",
+        "endereco": "0xDA3e950BD1bB152502188DbC417654e0Cc83fa91",
+        "vac1": 0,
+        "vac2": 0
+    },
+    {
+        "nome": "Cidadão 5",
+        "endereco": "0x37AF54D0071C4973b7aD4800C19C1dc3BF9c82Ac",
+        "vac1": 0,
+        "vac2": 0
+    },
+    {
+        "nome": "Cidadão 6",
+        "endereco": "0x07a131428Fe263955A47011233701b591bF6A790",
+        "vac1": 0,
+        "vac2": 0
+    },
+    {
+        "nome": "Cidadão 7",
+        "endereco": "0x1c76422972ece8c2794573dBa23229853AD7416e",
+        "vac1": 0,
+        "vac2": 0
+    },
+    {
+        "nome": "Cidadão 8",
+        "endereco": "0x3Dae23AcD9F3b94b7Eae3EC651cF1B8CD7c39c46",
+        "vac1": 0,
+        "vac2": 0
+    },
+    {
+        "nome": "Cidadão 9",
+        "endereco": "0x3c7C2DDC71449967B8Ffe83dD35C1d4aa0FD2b21",
+        "vac1": 0,
+        "vac2": 0
+    },
+    {
+        "nome": "Cidadão 10",
+        "endereco": "0x0A3e2693Aae51E46280fB48695B57f4064383072",
+        "vac1": 0,
+        "vac2": 0
+    }
+]
