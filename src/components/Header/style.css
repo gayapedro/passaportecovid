@@ -30,3 +30,14 @@ i {
 .logo i {
   cursor: inherit;
 }
+
+.fa-user-plus {
+  font-size: 22px;
+  align-self: center;
+}
+
+.utilidades {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}

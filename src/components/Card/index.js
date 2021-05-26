@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { format } from "date-fns";
 import Web3 from "web3";
 import "./style.css";
@@ -6,7 +6,6 @@ import "./style.css";
 export default function Card(props) {
   const [toggle, setToggle] = useState(false);
   const [erro, setErro] = useState("");
-  const erroRef = useRef();
   const data1 = new Date(props.vac1);
   const data2 = new Date(props.vac2);
   const listaPacientes = [...props.pacientes];

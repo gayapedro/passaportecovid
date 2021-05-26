@@ -7,11 +7,16 @@ export default function Header(props) {
         <i className='fas fa-virus-slash'></i>
         <h3>Passaporte Covid</h3>
       </div>
-
-      <i
-        onClick={() => props.setModalAberto(true)}
-        className='far fa-chart-bar'
-      ></i>
+      <div className='utilidades'>
+        <i
+          onClick={() => props.setAddUser(true)}
+          className='fas fa-user-plus'
+        ></i>
+        <i
+          onClick={() => props.setModalAberto(true)}
+          className='far fa-chart-bar'
+        ></i>
+      </div>
     </header>
   );
 }

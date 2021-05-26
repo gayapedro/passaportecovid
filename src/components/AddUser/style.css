@@ -1,0 +1,43 @@
+.fa-users {
+  color: cornflowerblue;
+  font-size: 250px;
+}
+
+.inputadd {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-top: 30px;
+}
+
+.inputadd input {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid cornflowerblue;
+  font-size: 24px;
+}
+
+.inputadd input:hover {
+  border: 2px solid cornflowerblue;
+}
+
+.inputadd input:focus {
+  border: 2px solid cornflowerblue;
+  outline: none;
+}
+
+.fa-plus {
+  color: cornflowerblue;
+  font-size: 35px;
+  margin-left: 30px;
+}
+
+.mensagemerro {
+  color: red;
+}
+
+.mensagemsucesso {
+  color: green;
+}
