@@ -40,10 +40,44 @@
         "inputs": [
             {
                 "internalType": "address",
-                "name": "cidadao",
+                "name": "admin",
                 "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "timestamp",
+                "type": "uint256"
             }
         ],
+        "name": "permitirAdministrador",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "cfm",
+                "type": "string"
+            },
+            {
+                "internalType": "bool",
+                "name": "ativo",
+                "type": "bool"
+            }
+        ],
+        "name": "cadastrarAdministrador",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [],
         "name": "cadastrarCidadao",
         "outputs": [],
         "payable": false,
@@ -51,14 +85,45 @@
         "type": "function"
     },
     {
+        "constant": false,
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "cidadao",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "ipfs",
+                "type": "address"
+            }
+        ],
+        "name": "addDocumento",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
         "constant": true,
-        "inputs": [],
-        "name": "timestampPrimeiraDose",
-        "outputs": [
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "cidadao",
+                "type": "address"
+            },
             {
                 "internalType": "uint256",
-                "name": "",
+                "name": "timestamp",
                 "type": "uint256"
+            }
+        ],
+        "name": "getDocumentos",
+        "outputs": [
+            {
+                "internalType": "address[]",
+                "name": "",
+                "type": "address[]"
             }
         ],
         "payable": false,
@@ -67,9 +132,25 @@
     },
     {
         "constant": true,
-        "inputs": [],
-        "name": "timestampSegundaDose",
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "cidadao",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "timestamp",
+                "type": "uint256"
+            }
+        ],
+        "name": "getHistoricoDatasVacinas",
         "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            },
             {
                 "internalType": "uint256",
                 "name": "",
@@ -87,6 +168,11 @@
                 "internalType": "uint256",
                 "name": "timestamp",
                 "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "cidadao",
+                "type": "address"
             }
         ],
         "name": "aplicarPrimeiraDose",
@@ -102,10 +188,36 @@
                 "internalType": "uint256",
                 "name": "timestamp",
                 "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "cidadao",
+                "type": "address"
             }
         ],
         "name": "aplicarSegundaDose",
         "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "medico",
+                "type": "address"
+            }
+        ],
+        "name": "getAdministradorAtivo",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ],
         "payable": false,
         "stateMutability": "nonpayable",
         "type": "function"
